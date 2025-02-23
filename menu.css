@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  background-color: black;
+  font-size: 25px;
+  position: fixed;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(254, 167, 6);
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.6px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav,
+ul,
+li,
+a {
+  color: #f3f0eb;
+  text-decoration: none;
+  display: flex;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ome {
+  color: rgb(254, 167, 6);
+}
+a:hover {
+  color: rgb(254, 167, 6);
+}
+#food{
+    color: white;
+    padding-top: 130px;
+    margin-bottom: 60px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.Menu {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding: 40px;
+    line-height: 1.6;
+    width: 100%;
+  }
+  .Menu h2 {
+    color: orange;
+    font-size: 30px;
+    font-style: oblique;
+  }
+  ul {
+    padding-left: 200px;
+    color: black;
+  }
+  li {
+    color: black;
+  }
+  .span {
+    font-size: 15px;
+    font-style: italic;
+    border-bottom: 2px solid orange;
+  }
+  .image-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+  }
+  .image-box img {
+    width: 250px;
+    padding-top: 30px;
+  }
+  .image-box p {
+    grid-area: inherit;
+  }
+  
+  .article-1,
+  .article-2,
+  .article-3 {
+    width: 300px;
+  }
+  .article-1 img {
+    width: 280px;
+    height: 280px;
+    padding: 15px;
+  }
+  .end {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    padding: 70px;
+    line-height: 1.8;
+  }
+  .tact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 350px;
+  }
+  h2{
+    color: orange;
+    font-size: 30px;
+  }
+  #start {
+    display: inline-block;
+    width: 80px; 
+    height: 1px;
+    background-color:orange;
+    vertical-align: middle;
+    margin-left: px; /
+  }
+
+  .star{
+    font-size: 20px;
+    font-style: italic;
+
+  }
+  #box:hover {
+    color: white;
+  }
+  .sci{
+    font-size:20px;
+    padding:3px;
+    border: 2px solid whitesmoke;
+    border-radius: 90px;
+    display: inline;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .sci:hover{
+    background-color: white;
+    color:orange;
+  }
+  .copy{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
