@@ -109,6 +109,9 @@ a:hover {
   #cat{
     color: black;
   }
+  #cat:hover{
+    color: white;
+  }
   .area{
     font-size: 20px;
     padding: 20px;
@@ -148,7 +151,8 @@ a:hover {
     margin-left: px; /
   }
   .star{
-    font-size: 20px;
+    padding-top:10px;
+    font-size: 25px;
     font-style: italic;
   
   }
@@ -157,10 +161,11 @@ a:hover {
     color: white;
   }
   .sci{
+    width: 50px;
     font-size:20px;
-    padding:3px;
+    padding:8px;
     border: 2px solid whitesmoke;
-    border-radius: 90px;
+    border-radius:50%;
     display: inline;
     text-align: center;
     justify-content: space-between;

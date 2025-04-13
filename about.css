@@ -99,7 +99,7 @@ a:hover {
   grid-template-columns: repeat(3, 1fr);
 }
 .flex img {
-  width: 300px;
+  width: 400px;
   padding-top: 20px;
 }
 #team {
@@ -171,6 +171,7 @@ h2{
   margin-left: px; /
 }
 .star{
+  padding-top:15px;
   font-size: 20px;
   font-style: italic;
 
@@ -180,14 +181,15 @@ h2{
   color: white;
 }
 .sci{
+  width: 50px;
   font-size:20px;
-  padding:3px;
+  padding: 8px;
   border: 2px solid whitesmoke;
-  border-radius: 90px;
+  border-radius:50%;
   display: inline;
   text-align: center;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 18px;
 }
 .sci:hover{
   background-color: white;
